@@ -1,80 +1,25 @@
-// BEGIN: Delete this later
-* {
-  margin: 0;
-  padding: 0;
+.black {
+  background: linear-gradient(black, #373737);
+  position: relative;
+  z-index: 0;
+  height: 100vh;
 }
 
-::selection {
-  background: color(black);
-  color: color(white);
+.black .col-12 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
+.black img {
+  max-width: 1450;
+  z-index: 100;
 }
 
-body {
-  font: font(default);
-  color: color(black);
-  background: color(pearl);
+.svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  max-width: 1800;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.cf {
-  &:after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 500 !important;
-}
-
-h1 {
-  font: font(large);
-}
-
-h2 {
-  font: font(large);
-}
-
-h3 {
-  font: font(x-medium);
-}
-
-// For tablets
-@media (min-width: 750px) {
-  h1 {
-    font: font(x-large);
-  }
-}
-
-// For larger screens
-@media (min-width: 1000px) {
-  h1 {
-    font: font(xx-large);
-  }
-
-  h2 {
-    font: font(x-large);
-  }
-
-  h3 {
-    font: font(large);
-  }
-}
-// END: Delete this later

@@ -1,0 +1,1 @@
+"use strict";function changeIcon(){setTimeout(function(){svgMorpheus.to(icons[current++%icons.length],{easing:"quad-out",duration:800}),changeIcon()},750)}var svgMorpheus=new SVGMorpheus(".svg"),icons=["Layer_1","Layer_2","Layer_3","Layer_4","Layer_5","Layer_6","Layer_7"],current=0;changeIcon();
